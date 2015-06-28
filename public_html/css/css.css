@@ -1,0 +1,183 @@
+@import url(http://fonts.googleapis.com/csss?family=Raleway);
+
+
+body {
+	background: url(../images/body_bg3.jpg) fixed bottom center;
+	margin:0px;
+}
+
+#wrapper {
+	height: 1530px;
+	background: #e9eade;
+	background-color:#ffffff;
+	margin:auto;
+	width:800px;
+}
+
+#header {
+	margin-top: 10px;
+	height:181px;
+	
+}
+#chu{
+	text-align: center;
+  
+  color: red;
+  padding-top: 1px;
+}
+#csssmenu,
+#csssmenu ul,
+#csssmenu ul li,
+#csssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#csssmenu:after,
+#csssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#csssmenu {
+  margin-top: 182px;
+  width: auto;
+  border-bottom: 3px solid #47c9af;
+  font-family: Raleway, sans-serif;
+  line-height: 1;
+}
+#csssmenu ul {
+  background: #ffffff;
+}
+#csssmenu > ul > li {
+  float: left;
+}
+#csssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#csssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#csssmenu.align-right > ul > li {
+  float: right;
+}
+#csssmenu.align-right > ul > li > a {
+  margin-right: 0;
+  margin-left: -4px;
+}
+#csssmenu > ul > li > a {
+  z-index: 2;
+  padding: 18px 25px 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #444444;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-right: -4px;
+}
+#csssmenu > ul > li.active > a,
+#csssmenu > ul > li:hover > a,
+#csssmenu > ul > li > a:hover {
+  color: #ffffff;
+}
+#csssmenu > ul > li > a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+}
+#csssmenu > ul > li.active > a:after,
+#csssmenu > ul > li:hover > a:after,
+#csssmenu > ul > li > a:hover:after {
+  background: #47c9af;
+}
+
+#footer {	
+	margin-bottom: 5px;
+	border-radius: 0px 0px 20px 20px;
+	margin-top: 43px;
+	width: 800px;
+	float: left;
+	height: 100px;
+	background-color: #99CC66;
+}
+
+#body_left {
+	float:left;
+	width:220px;
+	height:auto;
+	
+}
+
+
+
+#body_main {
+	float:left;
+	width:580px;
+	height:auto;
+	
+}
+.noidungd{
+	margin: 25px 20px 0px 20px;
+}
+.tieude{
+	width: 560px;
+	height: 48px;
+	background-color: #99CC66;
+	border-radius: 10px 10px 0px 0px;
+}
+h2{
+	color: blue;
+	padding-top: 10px;
+	margin: 0px 0px 0px 23px;
+}
+.noidungg{
+    width: 560px;
+	padding-top: 10px;
+	height: 275px;
+	background-color:#3ab4a6;
+}
+p{
+	
+	margin-right: 16px;
+	margin-left: 16px;
+}
+h4{
+	text-align: center;
+  padding-top: 36px;
+}
+#quangcao{
+	margin-top: 46px;
+  margin-left: 44px;
+}
